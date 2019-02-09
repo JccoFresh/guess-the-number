@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    display:grid;
+    background: #2980B9;  /* fallback for old browsers */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.supreme {
+    margin: auto;
+    margin-bottom: -5em;
+    margin-top: 6em;
+}
+.center {
+    text-align: center;
+    margin: auto;
+}
+.pad {
+    margin: 4%;
+    font-size: 1.8rem;
+}
+h2 {
+    color: #000;
+}
+#success {
+    display: block;
+    font-size: 40px;
+}
+#number {
+    font-size: 30px;
+    display: block;
+    margin-top: 0.5em;
+}
+#turns {
+    display: inline-block;
+}
+#turnDisplay {
+    display: inline;
+    font-size: 20px;
+    font-weight: 700;
+}
+#button {
+    margin-top: -0.2em;
+}

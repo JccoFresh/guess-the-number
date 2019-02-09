@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess the Number</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <img class="supreme" src="https://fontmeme.com/permalink/190209/c3438b7abb46009360261bcde1eeb6c9.png">
+        <div class="center">
+            <h1>Guess the Number</h1>
+            <p>Enter a number from 1 to 100</p>
+            <p id="turnDisplay">You have <span id="turns"> 8</span> turns to guess the number.</p>
+            <input id="number" placeholder="ex. 4">
+            <br/>
+            <button onClick="checkNum();counter()" id="button" class="pad btn-primary">Guess</button>
+            <h2 id="success"></h2>
+            <h2 class="box"></h2>
+        </div> 
+         <script type="text/javascript" src="script.js"></script>
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>
